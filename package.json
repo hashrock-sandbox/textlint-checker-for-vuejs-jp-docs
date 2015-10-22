@@ -1,0 +1,18 @@
+{
+  "name": "textlint-checker-for-vuejs-jp-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "./node_modules/.bin/textlint --rulesdir ./rules/textlint-rule-vue-jp-docs sample/*.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "textlint": "^4.0.0",
+    "textlint-rule-max-ten": "^1.1.1",
+    "textlint-rule-no-mix-dearu-desumasu": "^1.3.0",
+    "textlint-rule-spellcheck-tech-word": "^4.1.0"
+  }
+}
